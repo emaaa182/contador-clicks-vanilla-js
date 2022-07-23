@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+    position: relative;
+    margin: 150px auto;
+}
+ div .midl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+ }
+#contarClick{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+button{
+    border: none;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
